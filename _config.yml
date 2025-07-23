@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "我的个人主页"#左上角的标题
 title_separator          : "-"
 name                     : &name "MKR"
-description              : &description "我是个对 计算机和网络安全特别着迷 的新手！(★ ω ★) 虽然现在还是只“小菜鸟”，但我正在努力学习飞得更高！"
+description              : &description "我是个对计算机和网络安全特别着迷 的新手！(★ ω ★) 虽然现在还是只“小菜鸟”，但我正在努力学习飞得更高！"
 url                      : https://rikka-8964.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Rikka-8964/Rikka-8964.github.io"
