@@ -95,7 +95,8 @@ read_more                : "disabled" # if enabled, adds "Read more" links to ex
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
   provider                       : "giscus" # 关键步骤1：将 provider 设置为 giscus
-  giscus: # 关键步骤2：添加这个全新的 giscus 配置块
+  
+  giscus:  # 关键步骤2：添加这个全新的 giscus 配置块
     repo                         : "Rikka-8964/Rikka-8964.github.io" # 你的 GitHub 仓库
     repo_id                      : "R_kgDOPRMLyg"          # ❗️❗️❗️ 请从 Giscus 官网获取并替换
     category                     : "General"     # 你在 Giscus 设置的 Discussion 分类
