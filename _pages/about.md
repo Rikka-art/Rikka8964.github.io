@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "✨ 欢迎光临Rikka8964的小星球！ ✨ ｜ ฅ^•ﻌ•^ฅ 关于我的一切～"
 author_profile: true
 redirect_from: 
   - /about/
