@@ -1,6 +1,6 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your entire site, values
+# This config file is meant for settings that affect your entire site, valuesc
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
@@ -95,7 +95,6 @@ read_more                : "disabled" # if enabled, adds "Read more" links to ex
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
   provider                       : "giscus" # 关键步骤1：将 provider 设置为 giscus
-
   giscus: # 关键步骤2：添加这个全新的 giscus 配置块
     repo                         : "Rikka-8964/Rikka-8964.github.io" # 你的 GitHub 仓库
     repo_id                      : "R_kgDOPRMLyg"          # ❗️❗️❗️ 请从 Giscus 官网获取并替换
