@@ -94,15 +94,18 @@ future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  disqus:
-    shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+  provider                       : "giscus" # 关键步骤1：将 provider 设置为 giscus
+
+  giscus: # 关键步骤2：添加这个全新的 giscus 配置块
+    repo                         : "Rikka-8964/Rikka-8964.github.io" # 你的 GitHub 仓库
+    repo_id                      : "R_kgDOPRMLyg"          # ❗️❗️❗️ 请从 Giscus 官网获取并替换
+    category                     : "General"     # 你在 Giscus 设置的 Discussion 分类
+    category_id                  : "DIC_kwDOPRMLys4CtUZ_"          # ❗️❗️❗️ 请从 Giscus 官网获取并替换
+    theme                        : "preferred_color_scheme" # 可选 light, dark, transparent_dark, preferred_color_scheme
+    reactions_enabled            : "1" # "1" 表示开启, "0" 表示关闭
+    emit_metadata                : "0" # "1" 表示开启, "0" 表示关闭
+    input_position               : "bottom" # 可选 top, bottom
+    lang                         : "zh-CN" # 语言设置
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
